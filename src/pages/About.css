@@ -1,0 +1,25 @@
+.about h1 {
+  margin: 0 0 1rem;
+}
+
+.about h2 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.about p {
+  margin: 0 0 1rem;
+  color: var(--text-muted);
+}
+
+.about ul {
+  margin: 0 0 1rem;
+  padding-left: 1.5rem;
+}
+
+.about code {
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  background: var(--accent-soft);
+  border-radius: 4px;
+}

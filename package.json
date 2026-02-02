@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "prebuild": "node scripts/build-content.js",
+    "build": "vite build",
+    "postbuild": "node scripts/copy-404.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-router-dom": "^6.22.0",
+    "remark-gfm": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^7.3.1"
+  }
+}

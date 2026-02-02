@@ -1,0 +1,83 @@
+.home {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.hero {
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0 0 0.75rem;
+}
+
+.lead {
+  font-size: 1.125rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.7;
+}
+
+.recent h2 {
+  font-size: 1.5rem;
+  margin: 0 0 1rem;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list li {
+  border-bottom: 1px solid var(--border);
+}
+
+.post-link {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  color: var(--text);
+}
+
+.post-link:hover {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.post-title {
+  font-weight: 500;
+}
+
+.post-meta {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.empty {
+  color: var(--text-muted);
+  padding: 1.5rem 0;
+}
+
+.empty code {
+  font-size: 0.9em;
+  padding: 0.15em 0.4em;
+  background: var(--accent-soft);
+  border-radius: 4px;
+}
+
+.more {
+  margin-top: 1.5rem;
+}
+
+.more a {
+  font-weight: 500;
+}
